@@ -1,12 +1,12 @@
 const catalogMagnet = new Vue({
 	el:'#catalogMagnet',
 	data:{
-		message:'你好！欢迎访问我的主页zfe.space!',
+		message:'你好！欢迎访问我的主页ylcmy.space!',
 		link: [],
 		postnum:[],
 		//这里是磁贴背景图片
 		img:[
-			"/magnet/images/b1.jpg",
+			"/month-cm/magnet/images/b1.jpg",
 			"/month-cm/magnet/images/b2.jpg",
 			"/month-cm/magnet/images/b3.jpg",
 			"/month-cm/magnet/images/b4.jpg",
@@ -17,10 +17,10 @@ const catalogMagnet = new Vue({
 		],
 		//这里是磁贴描述信息
 		describe:[
-			"日本早安新闻",
-			"vue学习记录",
-			"我的各种作品",
-			"我的学习整理",
+			"读过的诗歌",
+			"我爱的人呐",
+			"美美的散文",
+			"生活的艺术",
 			"我的各种教程",
 			"我的游戏评测",
 			"生活点点滴滴",
