@@ -1,7 +1,7 @@
 const calendar = new Vue({
   el: '#calendar',
   data: {
-    simplemode: true, //打开时使用canvas绘制gitcalendar，关闭时使用svg绘制gitcalendar
+    simplemode: fasle, //打开时使用canvas绘制gitcalendar，关闭时使用svg绘制gitcalendar
 	                  //canvas：dom数少，但图像会发生模糊，自适应一般  svg：dom数多，图像清晰，自适应更佳  
 	                  
     user: 'ylcmy', //这里填写你的github用户名
